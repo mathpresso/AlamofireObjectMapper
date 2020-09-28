@@ -4,6 +4,10 @@ AlamofireObjectMapper
 [![CocoaPods](https://img.shields.io/cocoapods/v/AlamofireObjectMapper.svg)](https://github.com/tristanhimmelman/AlamofireObjectMapper)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
+기존 AlamofireObjectMapper가 Alamofire 5.1을 아직 지원하지 않아서, 대응을 위해 fork하여 사용함.  
+AlamofireObjectMapper가 Alamofire 5.1을 지원하거나, ObjectMapper 사용하는 레거시 코드를 모두 제거할 경우, 제거하여야 함.
+
+---
 
 An extension to [Alamofire](https://github.com/Alamofire/Alamofire) which automatically converts JSON response data into swift objects using [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper/). 
 
